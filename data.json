@@ -1,0 +1,56 @@
+[
+  {
+    "model": "mainapp.category",
+    "pk": 1,
+    "fields": {
+      "name": "Кеды",
+      "description": ""
+    }
+  },
+  {
+    "model": "mainapp.category",
+    "pk": 2,
+    "fields": {
+      "name": "Куртки",
+      "description": "Очень теплые куртки"
+    }
+  },
+  {
+    "model": "mainapp.category",
+    "pk": 3,
+    "fields": {
+      "name": "джинсы",
+      "description": "крутые джинсы йопта"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "name": "gfjg",
+      "image": "",
+      "short_description": "bnvcghfhy",
+      "description": "jhj",
+      "price": "2020.00",
+      "quantity": 4,
+      "created": "2025-05-06T13:13:25.364Z",
+      "updated": "2025-05-08T13:08:03.540Z"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 2,
+    "fields": {
+      "category": 3,
+      "name": "джинсы",
+      "image": "product_images/item-01.jpg",
+      "short_description": "синие джинсы",
+      "description": "абубубубубубубубубубубубубубубуб",
+      "price": "52000.00",
+      "quantity": 3,
+      "created": "2025-05-08T12:58:03.823Z",
+      "updated": "2025-05-08T12:58:44.988Z"
+    }
+  }
+]
